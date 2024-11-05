@@ -1,0 +1,39 @@
+{
+  "name": "Task-Management-System",
+  "version": "1.0.0",
+  "description": "Build a simplified Task Management System API where users can create and manage tasks. Each task belongs to a registered user and includes features like authentication, role-based access control, and logging.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "prod": "NODE_ENV=production node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbhI9519/Task-Management-System.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbhI9519/Task-Management-System/issues"
+  },
+  "homepage": "https://github.com/AbhI9519/Task-Management-System#readme",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/node": "^22.8.7",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "fs-extra": "^11.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "typescript": "^5.6.3",
+    "uuid": "^11.0.2"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "nodemon": "^3.1.7"
+  }
+}
